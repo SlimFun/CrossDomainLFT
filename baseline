@@ -1545,3 +1545,26 @@ Epoch 117 | Batch 100/100 | Loss 0.399192
 --- 100 Loss = 0.671205 ---
 --- 100 Test Acc = 74.39% +- 1.72% ---
 GG! best accuracy 77.125000
+Epoch 118 | Batch 10/100 | Loss 0.396475
+Epoch 118 | Batch 20/100 | Loss 0.396850
+Epoch 118 | Batch 30/100 | Loss 0.394303
+Epoch 118 | Batch 40/100 | Loss 0.395217
+Epoch 118 | Batch 50/100 | Loss 0.374233
+Epoch 118 | Batch 60/100 | Loss 0.387324
+Epoch 118 | Batch 70/100 | Loss 0.391372
+Epoch 118 | Batch 80/100 | Loss 0.392676
+Epoch 118 | Batch 90/100 | Loss 0.396788
+Epoch 118 | Batch 100/100 | Loss 0.400213
+--- 100 Loss = 0.690717 ---
+--- 100 Test Acc = 74.04% +- 1.74% ---
+GG! best accuracy 77.125000
+Epoch 119 | Batch 10/100 | Loss 0.376962
+Epoch 119 | Batch 20/100 | Loss 0.407211
+Epoch 119 | Batch 30/100 | Loss 0.372997
+Epoch 119 | Batch 40/100 | Loss 0.379524
+Epoch 119 | Batch 50/100 | Loss 0.374527
+Epoch 119 | Batch 60/100 | Loss 0.370745
+Epoch 119 | Batch 70/100 | Loss 0.353986
+Epoch 119 | Batch 80/100 | Loss 0.356379
+Epoch 119 | Batch 90/100 | Loss 0.358261
+Epoch 119 | Batch 100/100 | Loss 0.359352
