@@ -1,0 +1,1547 @@
+nohup: 忽略输入
+--- baseline training: multi_TESTSET_ori_METHOD ---
+
+Namespace(data_dir='./filelists', dataset='miniImagenet', method='matchingnet', model='ResNet10', n_shot=5, name='multi_TESTSET_ori_METHOD', num_classes=200, resume='', resume_epoch=-1, save_dir='./output', save_freq=25, start_epoch=0, stop_epoch=400, test_n_way=5, testset='cub', train_aug=True, train_n_way=5, warmup='baseline++')
+
+--- prepare dataloader ---
+  train with single seen domain miniImagenet
+
+--- build model ---
+  baseline training the model matchingnet with feature encoder ResNet10
+  load pre-trained model file: ./output/checkpoints/baseline++
+
+--- start the training ---
+Epoch 0 | Batch 10/100 | Loss 1.962844
+Epoch 0 | Batch 20/100 | Loss 1.798989
+Epoch 0 | Batch 30/100 | Loss 1.586817
+Epoch 0 | Batch 40/100 | Loss 1.467604
+Epoch 0 | Batch 50/100 | Loss 1.396644
+Epoch 0 | Batch 60/100 | Loss 1.352006
+Epoch 0 | Batch 70/100 | Loss 1.296249
+Epoch 0 | Batch 80/100 | Loss 1.262608
+Epoch 0 | Batch 90/100 | Loss 1.241165
+Epoch 0 | Batch 100/100 | Loss 1.204989
+--- 100 Loss = 0.926579 ---
+--- 100 Test Acc = 63.21% +- 1.79% ---
+best model! save...
+Epoch 1 | Batch 10/100 | Loss 0.988959
+Epoch 1 | Batch 20/100 | Loss 0.936864
+Epoch 1 | Batch 30/100 | Loss 0.915605
+Epoch 1 | Batch 40/100 | Loss 0.893622
+Epoch 1 | Batch 50/100 | Loss 0.899537
+Epoch 1 | Batch 60/100 | Loss 0.909884
+Epoch 1 | Batch 70/100 | Loss 0.905327
+Epoch 1 | Batch 80/100 | Loss 0.895786
+Epoch 1 | Batch 90/100 | Loss 0.903891
+Epoch 1 | Batch 100/100 | Loss 0.892749
+--- 100 Loss = 0.852670 ---
+--- 100 Test Acc = 66.24% +- 1.61% ---
+best model! save...
+Epoch 2 | Batch 10/100 | Loss 0.847656
+Epoch 2 | Batch 20/100 | Loss 0.811625
+Epoch 2 | Batch 30/100 | Loss 0.832346
+Epoch 2 | Batch 40/100 | Loss 0.828765
+Epoch 2 | Batch 50/100 | Loss 0.839940
+Epoch 2 | Batch 60/100 | Loss 0.844243
+Epoch 2 | Batch 70/100 | Loss 0.837114
+Epoch 2 | Batch 80/100 | Loss 0.839904
+Epoch 2 | Batch 90/100 | Loss 0.845657
+Epoch 2 | Batch 100/100 | Loss 0.844993
+--- 100 Loss = 0.866326 ---
+--- 100 Test Acc = 66.09% +- 1.73% ---
+GG! best accuracy 66.237500
+Epoch 3 | Batch 10/100 | Loss 0.801493
+Epoch 3 | Batch 20/100 | Loss 0.789591
+Epoch 3 | Batch 30/100 | Loss 0.804793
+Epoch 3 | Batch 40/100 | Loss 0.805700
+Epoch 3 | Batch 50/100 | Loss 0.821754
+Epoch 3 | Batch 60/100 | Loss 0.818209
+Epoch 3 | Batch 70/100 | Loss 0.820575
+Epoch 3 | Batch 80/100 | Loss 0.820652
+Epoch 3 | Batch 90/100 | Loss 0.817499
+Epoch 3 | Batch 100/100 | Loss 0.818163
+--- 100 Loss = 0.819779 ---
+--- 100 Test Acc = 68.29% +- 1.78% ---
+best model! save...
+Epoch 4 | Batch 10/100 | Loss 0.811305
+Epoch 4 | Batch 20/100 | Loss 0.786719
+Epoch 4 | Batch 30/100 | Loss 0.766758
+Epoch 4 | Batch 40/100 | Loss 0.762450
+Epoch 4 | Batch 50/100 | Loss 0.744023
+Epoch 4 | Batch 60/100 | Loss 0.755925
+Epoch 4 | Batch 70/100 | Loss 0.757462
+Epoch 4 | Batch 80/100 | Loss 0.747535
+Epoch 4 | Batch 90/100 | Loss 0.747676
+Epoch 4 | Batch 100/100 | Loss 0.744332
+--- 100 Loss = 0.789241 ---
+--- 100 Test Acc = 69.34% +- 1.55% ---
+best model! save...
+Epoch 5 | Batch 10/100 | Loss 0.752853
+Epoch 5 | Batch 20/100 | Loss 0.717111
+Epoch 5 | Batch 30/100 | Loss 0.726820
+Epoch 5 | Batch 40/100 | Loss 0.734707
+Epoch 5 | Batch 50/100 | Loss 0.739733
+Epoch 5 | Batch 60/100 | Loss 0.733516
+Epoch 5 | Batch 70/100 | Loss 0.757228
+Epoch 5 | Batch 80/100 | Loss 0.748822
+Epoch 5 | Batch 90/100 | Loss 0.755496
+Epoch 5 | Batch 100/100 | Loss 0.760222
+--- 100 Loss = 0.759444 ---
+--- 100 Test Acc = 69.67% +- 1.84% ---
+best model! save...
+Epoch 6 | Batch 10/100 | Loss 0.729182
+Epoch 6 | Batch 20/100 | Loss 0.691268
+Epoch 6 | Batch 30/100 | Loss 0.667935
+Epoch 6 | Batch 40/100 | Loss 0.703959
+Epoch 6 | Batch 50/100 | Loss 0.706080
+Epoch 6 | Batch 60/100 | Loss 0.718105
+Epoch 6 | Batch 70/100 | Loss 0.710749
+Epoch 6 | Batch 80/100 | Loss 0.707847
+Epoch 6 | Batch 90/100 | Loss 0.706644
+Epoch 6 | Batch 100/100 | Loss 0.710721
+--- 100 Loss = 0.782197 ---
+--- 100 Test Acc = 69.65% +- 1.47% ---
+GG! best accuracy 69.675000
+Epoch 7 | Batch 10/100 | Loss 0.701684
+Epoch 7 | Batch 20/100 | Loss 0.682418
+Epoch 7 | Batch 30/100 | Loss 0.688478
+Epoch 7 | Batch 40/100 | Loss 0.713049
+Epoch 7 | Batch 50/100 | Loss 0.710770
+Epoch 7 | Batch 60/100 | Loss 0.713074
+Epoch 7 | Batch 70/100 | Loss 0.699215
+Epoch 7 | Batch 80/100 | Loss 0.685838
+Epoch 7 | Batch 90/100 | Loss 0.688850
+Epoch 7 | Batch 100/100 | Loss 0.703265
+--- 100 Loss = 0.835850 ---
+--- 100 Test Acc = 67.70% +- 1.72% ---
+GG! best accuracy 69.675000
+Epoch 8 | Batch 10/100 | Loss 0.707375
+Epoch 8 | Batch 20/100 | Loss 0.731168
+Epoch 8 | Batch 30/100 | Loss 0.705495
+Epoch 8 | Batch 40/100 | Loss 0.714577
+Epoch 8 | Batch 50/100 | Loss 0.705594
+Epoch 8 | Batch 60/100 | Loss 0.713962
+Epoch 8 | Batch 70/100 | Loss 0.711039
+Epoch 8 | Batch 80/100 | Loss 0.718856
+Epoch 8 | Batch 90/100 | Loss 0.721294
+Epoch 8 | Batch 100/100 | Loss 0.719294
+--- 100 Loss = 0.755376 ---
+--- 100 Test Acc = 70.12% +- 1.77% ---
+best model! save...
+Epoch 9 | Batch 10/100 | Loss 0.627940
+Epoch 9 | Batch 20/100 | Loss 0.635469
+Epoch 9 | Batch 30/100 | Loss 0.647324
+Epoch 9 | Batch 40/100 | Loss 0.633051
+Epoch 9 | Batch 50/100 | Loss 0.639029
+Epoch 9 | Batch 60/100 | Loss 0.634745
+Epoch 9 | Batch 70/100 | Loss 0.644363
+Epoch 9 | Batch 80/100 | Loss 0.639921
+Epoch 9 | Batch 90/100 | Loss 0.640028
+Epoch 9 | Batch 100/100 | Loss 0.637420
+--- 100 Loss = 0.756032 ---
+--- 100 Test Acc = 69.88% +- 1.80% ---
+GG! best accuracy 70.125000
+Epoch 10 | Batch 10/100 | Loss 0.643764
+Epoch 10 | Batch 20/100 | Loss 0.680051
+Epoch 10 | Batch 30/100 | Loss 0.665805
+Epoch 10 | Batch 40/100 | Loss 0.651141
+Epoch 10 | Batch 50/100 | Loss 0.667804
+Epoch 10 | Batch 60/100 | Loss 0.677149
+Epoch 10 | Batch 70/100 | Loss 0.680575
+Epoch 10 | Batch 80/100 | Loss 0.688340
+Epoch 10 | Batch 90/100 | Loss 0.685632
+Epoch 10 | Batch 100/100 | Loss 0.694815
+--- 100 Loss = 0.773804 ---
+--- 100 Test Acc = 69.45% +- 1.74% ---
+GG! best accuracy 70.125000
+Epoch 11 | Batch 10/100 | Loss 0.613170
+Epoch 11 | Batch 20/100 | Loss 0.701216
+Epoch 11 | Batch 30/100 | Loss 0.665023
+Epoch 11 | Batch 40/100 | Loss 0.661535
+Epoch 11 | Batch 50/100 | Loss 0.666324
+Epoch 11 | Batch 60/100 | Loss 0.656466
+Epoch 11 | Batch 70/100 | Loss 0.654535
+Epoch 11 | Batch 80/100 | Loss 0.671264
+Epoch 11 | Batch 90/100 | Loss 0.663698
+Epoch 11 | Batch 100/100 | Loss 0.662230
+--- 100 Loss = 0.730656 ---
+--- 100 Test Acc = 72.08% +- 1.60% ---
+best model! save...
+Epoch 12 | Batch 10/100 | Loss 0.700791
+Epoch 12 | Batch 20/100 | Loss 0.654425
+Epoch 12 | Batch 30/100 | Loss 0.675881
+Epoch 12 | Batch 40/100 | Loss 0.669234
+Epoch 12 | Batch 50/100 | Loss 0.671808
+Epoch 12 | Batch 60/100 | Loss 0.658574
+Epoch 12 | Batch 70/100 | Loss 0.654962
+Epoch 12 | Batch 80/100 | Loss 0.652476
+Epoch 12 | Batch 90/100 | Loss 0.656071
+Epoch 12 | Batch 100/100 | Loss 0.646127
+--- 100 Loss = 0.721264 ---
+--- 100 Test Acc = 72.20% +- 1.91% ---
+best model! save...
+Epoch 13 | Batch 10/100 | Loss 0.626558
+Epoch 13 | Batch 20/100 | Loss 0.620374
+Epoch 13 | Batch 30/100 | Loss 0.623904
+Epoch 13 | Batch 40/100 | Loss 0.615588
+Epoch 13 | Batch 50/100 | Loss 0.596632
+Epoch 13 | Batch 60/100 | Loss 0.619130
+Epoch 13 | Batch 70/100 | Loss 0.627595
+Epoch 13 | Batch 80/100 | Loss 0.620428
+Epoch 13 | Batch 90/100 | Loss 0.628066
+Epoch 13 | Batch 100/100 | Loss 0.627456
+--- 100 Loss = 0.748814 ---
+--- 100 Test Acc = 70.65% +- 1.67% ---
+GG! best accuracy 72.200000
+Epoch 14 | Batch 10/100 | Loss 0.646262
+Epoch 14 | Batch 20/100 | Loss 0.648923
+Epoch 14 | Batch 30/100 | Loss 0.696664
+Epoch 14 | Batch 40/100 | Loss 0.663380
+Epoch 14 | Batch 50/100 | Loss 0.662950
+Epoch 14 | Batch 60/100 | Loss 0.661646
+Epoch 14 | Batch 70/100 | Loss 0.663204
+Epoch 14 | Batch 80/100 | Loss 0.665360
+Epoch 14 | Batch 90/100 | Loss 0.660404
+Epoch 14 | Batch 100/100 | Loss 0.660468
+--- 100 Loss = 0.718133 ---
+--- 100 Test Acc = 71.46% +- 1.60% ---
+GG! best accuracy 72.200000
+Epoch 15 | Batch 10/100 | Loss 0.673114
+Epoch 15 | Batch 20/100 | Loss 0.666759
+Epoch 15 | Batch 30/100 | Loss 0.659166
+Epoch 15 | Batch 40/100 | Loss 0.625991
+Epoch 15 | Batch 50/100 | Loss 0.619579
+Epoch 15 | Batch 60/100 | Loss 0.622712
+Epoch 15 | Batch 70/100 | Loss 0.617398
+Epoch 15 | Batch 80/100 | Loss 0.613469
+Epoch 15 | Batch 90/100 | Loss 0.611974
+Epoch 15 | Batch 100/100 | Loss 0.602389
+--- 100 Loss = 0.749986 ---
+--- 100 Test Acc = 71.19% +- 1.56% ---
+GG! best accuracy 72.200000
+Epoch 16 | Batch 10/100 | Loss 0.640285
+Epoch 16 | Batch 20/100 | Loss 0.608381
+Epoch 16 | Batch 30/100 | Loss 0.626442
+Epoch 16 | Batch 40/100 | Loss 0.609989
+Epoch 16 | Batch 50/100 | Loss 0.623681
+Epoch 16 | Batch 60/100 | Loss 0.629889
+Epoch 16 | Batch 70/100 | Loss 0.638818
+Epoch 16 | Batch 80/100 | Loss 0.635030
+Epoch 16 | Batch 90/100 | Loss 0.633728
+Epoch 16 | Batch 100/100 | Loss 0.629018
+--- 100 Loss = 0.741317 ---
+--- 100 Test Acc = 71.59% +- 1.41% ---
+GG! best accuracy 72.200000
+Epoch 17 | Batch 10/100 | Loss 0.543214
+Epoch 17 | Batch 20/100 | Loss 0.534926
+Epoch 17 | Batch 30/100 | Loss 0.578151
+Epoch 17 | Batch 40/100 | Loss 0.565437
+Epoch 17 | Batch 50/100 | Loss 0.561347
+Epoch 17 | Batch 60/100 | Loss 0.541832
+Epoch 17 | Batch 70/100 | Loss 0.550507
+Epoch 17 | Batch 80/100 | Loss 0.563684
+Epoch 17 | Batch 90/100 | Loss 0.581559
+Epoch 17 | Batch 100/100 | Loss 0.579464
+--- 100 Loss = 0.722763 ---
+--- 100 Test Acc = 71.86% +- 1.52% ---
+GG! best accuracy 72.200000
+Epoch 18 | Batch 10/100 | Loss 0.565474
+Epoch 18 | Batch 20/100 | Loss 0.634180
+Epoch 18 | Batch 30/100 | Loss 0.652520
+Epoch 18 | Batch 40/100 | Loss 0.635437
+Epoch 18 | Batch 50/100 | Loss 0.628260
+Epoch 18 | Batch 60/100 | Loss 0.601306
+Epoch 18 | Batch 70/100 | Loss 0.599768
+Epoch 18 | Batch 80/100 | Loss 0.601760
+Epoch 18 | Batch 90/100 | Loss 0.593990
+Epoch 18 | Batch 100/100 | Loss 0.595472
+--- 100 Loss = 0.718751 ---
+--- 100 Test Acc = 72.89% +- 1.55% ---
+best model! save...
+Epoch 19 | Batch 10/100 | Loss 0.627384
+Epoch 19 | Batch 20/100 | Loss 0.613228
+Epoch 19 | Batch 30/100 | Loss 0.588334
+Epoch 19 | Batch 40/100 | Loss 0.592678
+Epoch 19 | Batch 50/100 | Loss 0.580929
+Epoch 19 | Batch 60/100 | Loss 0.576487
+Epoch 19 | Batch 70/100 | Loss 0.574534
+Epoch 19 | Batch 80/100 | Loss 0.577239
+Epoch 19 | Batch 90/100 | Loss 0.571893
+Epoch 19 | Batch 100/100 | Loss 0.572119
+--- 100 Loss = 0.765226 ---
+--- 100 Test Acc = 70.20% +- 1.40% ---
+GG! best accuracy 72.887500
+Epoch 20 | Batch 10/100 | Loss 0.645663
+Epoch 20 | Batch 20/100 | Loss 0.636464
+Epoch 20 | Batch 30/100 | Loss 0.621843
+Epoch 20 | Batch 40/100 | Loss 0.660665
+Epoch 20 | Batch 50/100 | Loss 0.652690
+Epoch 20 | Batch 60/100 | Loss 0.640416
+Epoch 20 | Batch 70/100 | Loss 0.642341
+Epoch 20 | Batch 80/100 | Loss 0.640213
+Epoch 20 | Batch 90/100 | Loss 0.653753
+Epoch 20 | Batch 100/100 | Loss 0.648312
+--- 100 Loss = 0.717153 ---
+--- 100 Test Acc = 72.60% +- 1.61% ---
+GG! best accuracy 72.887500
+Epoch 21 | Batch 10/100 | Loss 0.561009
+Epoch 21 | Batch 20/100 | Loss 0.552546
+Epoch 21 | Batch 30/100 | Loss 0.573842
+Epoch 21 | Batch 40/100 | Loss 0.564063
+Epoch 21 | Batch 50/100 | Loss 0.582999
+Epoch 21 | Batch 60/100 | Loss 0.585035
+Epoch 21 | Batch 70/100 | Loss 0.588765
+Epoch 21 | Batch 80/100 | Loss 0.591025
+Epoch 21 | Batch 90/100 | Loss 0.589691
+Epoch 21 | Batch 100/100 | Loss 0.595430
+--- 100 Loss = 0.756456 ---
+--- 100 Test Acc = 71.10% +- 1.58% ---
+GG! best accuracy 72.887500
+Epoch 22 | Batch 10/100 | Loss 0.622381
+Epoch 22 | Batch 20/100 | Loss 0.596995
+Epoch 22 | Batch 30/100 | Loss 0.585841
+Epoch 22 | Batch 40/100 | Loss 0.615339
+Epoch 22 | Batch 50/100 | Loss 0.624401
+Epoch 22 | Batch 60/100 | Loss 0.617441
+Epoch 22 | Batch 70/100 | Loss 0.607212
+Epoch 22 | Batch 80/100 | Loss 0.605902
+Epoch 22 | Batch 90/100 | Loss 0.605483
+Epoch 22 | Batch 100/100 | Loss 0.600608
+--- 100 Loss = 0.746279 ---
+--- 100 Test Acc = 70.51% +- 1.65% ---
+GG! best accuracy 72.887500
+Epoch 23 | Batch 10/100 | Loss 0.508042
+Epoch 23 | Batch 20/100 | Loss 0.526286
+Epoch 23 | Batch 30/100 | Loss 0.555557
+Epoch 23 | Batch 40/100 | Loss 0.557892
+Epoch 23 | Batch 50/100 | Loss 0.574393
+Epoch 23 | Batch 60/100 | Loss 0.573194
+Epoch 23 | Batch 70/100 | Loss 0.566278
+Epoch 23 | Batch 80/100 | Loss 0.563484
+Epoch 23 | Batch 90/100 | Loss 0.567257
+Epoch 23 | Batch 100/100 | Loss 0.575020
+--- 100 Loss = 0.701683 ---
+--- 100 Test Acc = 73.12% +- 1.40% ---
+best model! save...
+Epoch 24 | Batch 10/100 | Loss 0.623652
+Epoch 24 | Batch 20/100 | Loss 0.562598
+Epoch 24 | Batch 30/100 | Loss 0.543874
+Epoch 24 | Batch 40/100 | Loss 0.544126
+Epoch 24 | Batch 50/100 | Loss 0.555409
+Epoch 24 | Batch 60/100 | Loss 0.567062
+Epoch 24 | Batch 70/100 | Loss 0.569876
+Epoch 24 | Batch 80/100 | Loss 0.566734
+Epoch 24 | Batch 90/100 | Loss 0.574440
+Epoch 24 | Batch 100/100 | Loss 0.572867
+--- 100 Loss = 0.742343 ---
+--- 100 Test Acc = 71.47% +- 1.63% ---
+GG! best accuracy 73.125000
+Epoch 25 | Batch 10/100 | Loss 0.647886
+Epoch 25 | Batch 20/100 | Loss 0.595202
+Epoch 25 | Batch 30/100 | Loss 0.581755
+Epoch 25 | Batch 40/100 | Loss 0.578284
+Epoch 25 | Batch 50/100 | Loss 0.556923
+Epoch 25 | Batch 60/100 | Loss 0.567441
+Epoch 25 | Batch 70/100 | Loss 0.576677
+Epoch 25 | Batch 80/100 | Loss 0.584657
+Epoch 25 | Batch 90/100 | Loss 0.580306
+Epoch 25 | Batch 100/100 | Loss 0.569577
+--- 100 Loss = 0.695294 ---
+--- 100 Test Acc = 72.36% +- 1.50% ---
+GG! best accuracy 73.125000
+Epoch 26 | Batch 10/100 | Loss 0.556182
+Epoch 26 | Batch 20/100 | Loss 0.586500
+Epoch 26 | Batch 30/100 | Loss 0.585006
+Epoch 26 | Batch 40/100 | Loss 0.562395
+Epoch 26 | Batch 50/100 | Loss 0.568810
+Epoch 26 | Batch 60/100 | Loss 0.580532
+Epoch 26 | Batch 70/100 | Loss 0.572287
+Epoch 26 | Batch 80/100 | Loss 0.572149
+Epoch 26 | Batch 90/100 | Loss 0.562786
+Epoch 26 | Batch 100/100 | Loss 0.575455
+--- 100 Loss = 0.765801 ---
+--- 100 Test Acc = 70.62% +- 1.64% ---
+GG! best accuracy 73.125000
+Epoch 27 | Batch 10/100 | Loss 0.636904
+Epoch 27 | Batch 20/100 | Loss 0.578765
+Epoch 27 | Batch 30/100 | Loss 0.558065
+Epoch 27 | Batch 40/100 | Loss 0.579281
+Epoch 27 | Batch 50/100 | Loss 0.589935
+Epoch 27 | Batch 60/100 | Loss 0.593953
+Epoch 27 | Batch 70/100 | Loss 0.596795
+Epoch 27 | Batch 80/100 | Loss 0.597972
+Epoch 27 | Batch 90/100 | Loss 0.588755
+Epoch 27 | Batch 100/100 | Loss 0.578418
+--- 100 Loss = 0.694786 ---
+--- 100 Test Acc = 73.08% +- 1.50% ---
+GG! best accuracy 73.125000
+Epoch 28 | Batch 10/100 | Loss 0.557842
+Epoch 28 | Batch 20/100 | Loss 0.568036
+Epoch 28 | Batch 30/100 | Loss 0.563368
+Epoch 28 | Batch 40/100 | Loss 0.591082
+Epoch 28 | Batch 50/100 | Loss 0.586460
+Epoch 28 | Batch 60/100 | Loss 0.575795
+Epoch 28 | Batch 70/100 | Loss 0.580025
+Epoch 28 | Batch 80/100 | Loss 0.593607
+Epoch 28 | Batch 90/100 | Loss 0.592748
+Epoch 28 | Batch 100/100 | Loss 0.590152
+--- 100 Loss = 0.716482 ---
+--- 100 Test Acc = 71.74% +- 1.73% ---
+GG! best accuracy 73.125000
+Epoch 29 | Batch 10/100 | Loss 0.667014
+Epoch 29 | Batch 20/100 | Loss 0.688902
+Epoch 29 | Batch 30/100 | Loss 0.645644
+Epoch 29 | Batch 40/100 | Loss 0.639482
+Epoch 29 | Batch 50/100 | Loss 0.611473
+Epoch 29 | Batch 60/100 | Loss 0.592164
+Epoch 29 | Batch 70/100 | Loss 0.595196
+Epoch 29 | Batch 80/100 | Loss 0.586965
+Epoch 29 | Batch 90/100 | Loss 0.582858
+Epoch 29 | Batch 100/100 | Loss 0.585061
+--- 100 Loss = 0.716274 ---
+--- 100 Test Acc = 72.00% +- 1.57% ---
+GG! best accuracy 73.125000
+Epoch 30 | Batch 10/100 | Loss 0.496189
+Epoch 30 | Batch 20/100 | Loss 0.506016
+Epoch 30 | Batch 30/100 | Loss 0.574485
+Epoch 30 | Batch 40/100 | Loss 0.580029
+Epoch 30 | Batch 50/100 | Loss 0.576459
+Epoch 30 | Batch 60/100 | Loss 0.563883
+Epoch 30 | Batch 70/100 | Loss 0.571271
+Epoch 30 | Batch 80/100 | Loss 0.572922
+Epoch 30 | Batch 90/100 | Loss 0.576851
+Epoch 30 | Batch 100/100 | Loss 0.577961
+--- 100 Loss = 0.691652 ---
+--- 100 Test Acc = 73.56% +- 1.68% ---
+best model! save...
+Epoch 31 | Batch 10/100 | Loss 0.507903
+Epoch 31 | Batch 20/100 | Loss 0.525578
+Epoch 31 | Batch 30/100 | Loss 0.499496
+Epoch 31 | Batch 40/100 | Loss 0.499654
+Epoch 31 | Batch 50/100 | Loss 0.521655
+Epoch 31 | Batch 60/100 | Loss 0.533481
+Epoch 31 | Batch 70/100 | Loss 0.525505
+Epoch 31 | Batch 80/100 | Loss 0.529294
+Epoch 31 | Batch 90/100 | Loss 0.523619
+Epoch 31 | Batch 100/100 | Loss 0.527575
+--- 100 Loss = 0.701957 ---
+--- 100 Test Acc = 72.24% +- 1.62% ---
+GG! best accuracy 73.562500
+Epoch 32 | Batch 10/100 | Loss 0.496985
+Epoch 32 | Batch 20/100 | Loss 0.514455
+Epoch 32 | Batch 30/100 | Loss 0.521640
+Epoch 32 | Batch 40/100 | Loss 0.523173
+Epoch 32 | Batch 50/100 | Loss 0.521793
+Epoch 32 | Batch 60/100 | Loss 0.537608
+Epoch 32 | Batch 70/100 | Loss 0.533508
+Epoch 32 | Batch 80/100 | Loss 0.535298
+Epoch 32 | Batch 90/100 | Loss 0.543092
+Epoch 32 | Batch 100/100 | Loss 0.559472
+--- 100 Loss = 0.748652 ---
+--- 100 Test Acc = 71.21% +- 1.47% ---
+GG! best accuracy 73.562500
+Epoch 33 | Batch 10/100 | Loss 0.539728
+Epoch 33 | Batch 20/100 | Loss 0.558089
+Epoch 33 | Batch 30/100 | Loss 0.548868
+Epoch 33 | Batch 40/100 | Loss 0.568277
+Epoch 33 | Batch 50/100 | Loss 0.565688
+Epoch 33 | Batch 60/100 | Loss 0.576067
+Epoch 33 | Batch 70/100 | Loss 0.577922
+Epoch 33 | Batch 80/100 | Loss 0.582158
+Epoch 33 | Batch 90/100 | Loss 0.580976
+Epoch 33 | Batch 100/100 | Loss 0.586481
+--- 100 Loss = 0.711087 ---
+--- 100 Test Acc = 72.30% +- 1.53% ---
+GG! best accuracy 73.562500
+Epoch 34 | Batch 10/100 | Loss 0.594182
+Epoch 34 | Batch 20/100 | Loss 0.648601
+Epoch 34 | Batch 30/100 | Loss 0.586509
+Epoch 34 | Batch 40/100 | Loss 0.585824
+Epoch 34 | Batch 50/100 | Loss 0.585695
+Epoch 34 | Batch 60/100 | Loss 0.588120
+Epoch 34 | Batch 70/100 | Loss 0.584483
+Epoch 34 | Batch 80/100 | Loss 0.584242
+Epoch 34 | Batch 90/100 | Loss 0.584944
+Epoch 34 | Batch 100/100 | Loss 0.583252
+--- 100 Loss = 0.744234 ---
+--- 100 Test Acc = 70.67% +- 1.48% ---
+GG! best accuracy 73.562500
+Epoch 35 | Batch 10/100 | Loss 0.605505
+Epoch 35 | Batch 20/100 | Loss 0.555613
+Epoch 35 | Batch 30/100 | Loss 0.520150
+Epoch 35 | Batch 40/100 | Loss 0.528810
+Epoch 35 | Batch 50/100 | Loss 0.538742
+Epoch 35 | Batch 60/100 | Loss 0.525015
+Epoch 35 | Batch 70/100 | Loss 0.539371
+Epoch 35 | Batch 80/100 | Loss 0.546900
+Epoch 35 | Batch 90/100 | Loss 0.532857
+Epoch 35 | Batch 100/100 | Loss 0.536018
+--- 100 Loss = 0.696226 ---
+--- 100 Test Acc = 72.84% +- 1.43% ---
+GG! best accuracy 73.562500
+Epoch 36 | Batch 10/100 | Loss 0.592852
+Epoch 36 | Batch 20/100 | Loss 0.557879
+Epoch 36 | Batch 30/100 | Loss 0.558249
+Epoch 36 | Batch 40/100 | Loss 0.563050
+Epoch 36 | Batch 50/100 | Loss 0.568618
+Epoch 36 | Batch 60/100 | Loss 0.568024
+Epoch 36 | Batch 70/100 | Loss 0.555447
+Epoch 36 | Batch 80/100 | Loss 0.547922
+Epoch 36 | Batch 90/100 | Loss 0.556700
+Epoch 36 | Batch 100/100 | Loss 0.555275
+--- 100 Loss = 0.695440 ---
+--- 100 Test Acc = 72.78% +- 1.44% ---
+GG! best accuracy 73.562500
+Epoch 37 | Batch 10/100 | Loss 0.576149
+Epoch 37 | Batch 20/100 | Loss 0.573246
+Epoch 37 | Batch 30/100 | Loss 0.584149
+Epoch 37 | Batch 40/100 | Loss 0.562816
+Epoch 37 | Batch 50/100 | Loss 0.554567
+Epoch 37 | Batch 60/100 | Loss 0.545245
+Epoch 37 | Batch 70/100 | Loss 0.538581
+Epoch 37 | Batch 80/100 | Loss 0.536559
+Epoch 37 | Batch 90/100 | Loss 0.535329
+Epoch 37 | Batch 100/100 | Loss 0.550042
+--- 100 Loss = 0.702005 ---
+--- 100 Test Acc = 72.50% +- 1.69% ---
+GG! best accuracy 73.562500
+Epoch 38 | Batch 10/100 | Loss 0.554978
+Epoch 38 | Batch 20/100 | Loss 0.491095
+Epoch 38 | Batch 30/100 | Loss 0.485626
+Epoch 38 | Batch 40/100 | Loss 0.497373
+Epoch 38 | Batch 50/100 | Loss 0.521077
+Epoch 38 | Batch 60/100 | Loss 0.516669
+Epoch 38 | Batch 70/100 | Loss 0.514561
+Epoch 38 | Batch 80/100 | Loss 0.532749
+Epoch 38 | Batch 90/100 | Loss 0.536577
+Epoch 38 | Batch 100/100 | Loss 0.538177
+--- 100 Loss = 0.707966 ---
+--- 100 Test Acc = 72.54% +- 1.69% ---
+GG! best accuracy 73.562500
+Epoch 39 | Batch 10/100 | Loss 0.601104
+Epoch 39 | Batch 20/100 | Loss 0.618276
+Epoch 39 | Batch 30/100 | Loss 0.565647
+Epoch 39 | Batch 40/100 | Loss 0.552381
+Epoch 39 | Batch 50/100 | Loss 0.530671
+Epoch 39 | Batch 60/100 | Loss 0.517028
+Epoch 39 | Batch 70/100 | Loss 0.527601
+Epoch 39 | Batch 80/100 | Loss 0.527808
+Epoch 39 | Batch 90/100 | Loss 0.518211
+Epoch 39 | Batch 100/100 | Loss 0.522830
+--- 100 Loss = 0.724904 ---
+--- 100 Test Acc = 71.95% +- 1.68% ---
+GG! best accuracy 73.562500
+Epoch 40 | Batch 10/100 | Loss 0.568052
+Epoch 40 | Batch 20/100 | Loss 0.562671
+Epoch 40 | Batch 30/100 | Loss 0.548945
+Epoch 40 | Batch 40/100 | Loss 0.535377
+Epoch 40 | Batch 50/100 | Loss 0.542229
+Epoch 40 | Batch 60/100 | Loss 0.547088
+Epoch 40 | Batch 70/100 | Loss 0.533114
+Epoch 40 | Batch 80/100 | Loss 0.528030
+Epoch 40 | Batch 90/100 | Loss 0.525063
+Epoch 40 | Batch 100/100 | Loss 0.521857
+--- 100 Loss = 0.710887 ---
+--- 100 Test Acc = 73.11% +- 1.63% ---
+GG! best accuracy 73.562500
+Epoch 41 | Batch 10/100 | Loss 0.543231
+Epoch 41 | Batch 20/100 | Loss 0.519480
+Epoch 41 | Batch 30/100 | Loss 0.514545
+Epoch 41 | Batch 40/100 | Loss 0.501105
+Epoch 41 | Batch 50/100 | Loss 0.503234
+Epoch 41 | Batch 60/100 | Loss 0.501839
+Epoch 41 | Batch 70/100 | Loss 0.499531
+Epoch 41 | Batch 80/100 | Loss 0.504767
+Epoch 41 | Batch 90/100 | Loss 0.503459
+Epoch 41 | Batch 100/100 | Loss 0.503996
+--- 100 Loss = 0.697513 ---
+--- 100 Test Acc = 72.81% +- 1.53% ---
+GG! best accuracy 73.562500
+Epoch 42 | Batch 10/100 | Loss 0.498323
+Epoch 42 | Batch 20/100 | Loss 0.548952
+Epoch 42 | Batch 30/100 | Loss 0.529211
+Epoch 42 | Batch 40/100 | Loss 0.534612
+Epoch 42 | Batch 50/100 | Loss 0.530503
+Epoch 42 | Batch 60/100 | Loss 0.537624
+Epoch 42 | Batch 70/100 | Loss 0.538243
+Epoch 42 | Batch 80/100 | Loss 0.541219
+Epoch 42 | Batch 90/100 | Loss 0.551262
+Epoch 42 | Batch 100/100 | Loss 0.543513
+--- 100 Loss = 0.729114 ---
+--- 100 Test Acc = 72.04% +- 1.59% ---
+GG! best accuracy 73.562500
+Epoch 43 | Batch 10/100 | Loss 0.554442
+Epoch 43 | Batch 20/100 | Loss 0.524512
+Epoch 43 | Batch 30/100 | Loss 0.535280
+Epoch 43 | Batch 40/100 | Loss 0.547191
+Epoch 43 | Batch 50/100 | Loss 0.530437
+Epoch 43 | Batch 60/100 | Loss 0.514813
+Epoch 43 | Batch 70/100 | Loss 0.507446
+Epoch 43 | Batch 80/100 | Loss 0.498841
+Epoch 43 | Batch 90/100 | Loss 0.487365
+Epoch 43 | Batch 100/100 | Loss 0.492043
+--- 100 Loss = 0.686760 ---
+--- 100 Test Acc = 73.26% +- 1.77% ---
+GG! best accuracy 73.562500
+Epoch 44 | Batch 10/100 | Loss 0.475445
+Epoch 44 | Batch 20/100 | Loss 0.473285
+Epoch 44 | Batch 30/100 | Loss 0.487257
+Epoch 44 | Batch 40/100 | Loss 0.511355
+Epoch 44 | Batch 50/100 | Loss 0.518597
+Epoch 44 | Batch 60/100 | Loss 0.521259
+Epoch 44 | Batch 70/100 | Loss 0.526208
+Epoch 44 | Batch 80/100 | Loss 0.526421
+Epoch 44 | Batch 90/100 | Loss 0.530769
+Epoch 44 | Batch 100/100 | Loss 0.532888
+--- 100 Loss = 0.714249 ---
+--- 100 Test Acc = 72.20% +- 1.63% ---
+GG! best accuracy 73.562500
+Epoch 45 | Batch 10/100 | Loss 0.575571
+Epoch 45 | Batch 20/100 | Loss 0.546256
+Epoch 45 | Batch 30/100 | Loss 0.529349
+Epoch 45 | Batch 40/100 | Loss 0.545138
+Epoch 45 | Batch 50/100 | Loss 0.536568
+Epoch 45 | Batch 60/100 | Loss 0.541999
+Epoch 45 | Batch 70/100 | Loss 0.538531
+Epoch 45 | Batch 80/100 | Loss 0.546131
+Epoch 45 | Batch 90/100 | Loss 0.538688
+Epoch 45 | Batch 100/100 | Loss 0.532077
+--- 100 Loss = 0.735376 ---
+--- 100 Test Acc = 71.19% +- 1.56% ---
+GG! best accuracy 73.562500
+Epoch 46 | Batch 10/100 | Loss 0.465433
+Epoch 46 | Batch 20/100 | Loss 0.514745
+Epoch 46 | Batch 30/100 | Loss 0.529397
+Epoch 46 | Batch 40/100 | Loss 0.572306
+Epoch 46 | Batch 50/100 | Loss 0.550462
+Epoch 46 | Batch 60/100 | Loss 0.539912
+Epoch 46 | Batch 70/100 | Loss 0.562733
+Epoch 46 | Batch 80/100 | Loss 0.550950
+Epoch 46 | Batch 90/100 | Loss 0.547738
+Epoch 46 | Batch 100/100 | Loss 0.540039
+--- 100 Loss = 0.693773 ---
+--- 100 Test Acc = 73.76% +- 1.65% ---
+best model! save...
+Epoch 47 | Batch 10/100 | Loss 0.522910
+Epoch 47 | Batch 20/100 | Loss 0.509361
+Epoch 47 | Batch 30/100 | Loss 0.490371
+Epoch 47 | Batch 40/100 | Loss 0.468565
+Epoch 47 | Batch 50/100 | Loss 0.498070
+Epoch 47 | Batch 60/100 | Loss 0.491465
+Epoch 47 | Batch 70/100 | Loss 0.491285
+Epoch 47 | Batch 80/100 | Loss 0.498187
+Epoch 47 | Batch 90/100 | Loss 0.491204
+Epoch 47 | Batch 100/100 | Loss 0.493985
+--- 100 Loss = 0.683963 ---
+--- 100 Test Acc = 73.71% +- 1.95% ---
+GG! best accuracy 73.762500
+Epoch 48 | Batch 10/100 | Loss 0.469352
+Epoch 48 | Batch 20/100 | Loss 0.480157
+Epoch 48 | Batch 30/100 | Loss 0.515965
+Epoch 48 | Batch 40/100 | Loss 0.502620
+Epoch 48 | Batch 50/100 | Loss 0.516543
+Epoch 48 | Batch 60/100 | Loss 0.517468
+Epoch 48 | Batch 70/100 | Loss 0.520131
+Epoch 48 | Batch 80/100 | Loss 0.513609
+Epoch 48 | Batch 90/100 | Loss 0.512704
+Epoch 48 | Batch 100/100 | Loss 0.506687
+--- 100 Loss = 0.702975 ---
+--- 100 Test Acc = 73.46% +- 1.60% ---
+GG! best accuracy 73.762500
+Epoch 49 | Batch 10/100 | Loss 0.640113
+Epoch 49 | Batch 20/100 | Loss 0.563520
+Epoch 49 | Batch 30/100 | Loss 0.583303
+Epoch 49 | Batch 40/100 | Loss 0.563556
+Epoch 49 | Batch 50/100 | Loss 0.562565
+Epoch 49 | Batch 60/100 | Loss 0.552945
+Epoch 49 | Batch 70/100 | Loss 0.549582
+Epoch 49 | Batch 80/100 | Loss 0.538300
+Epoch 49 | Batch 90/100 | Loss 0.533705
+Epoch 49 | Batch 100/100 | Loss 0.529818
+--- 100 Loss = 0.679388 ---
+--- 100 Test Acc = 73.79% +- 1.65% ---
+best model! save...
+Epoch 50 | Batch 10/100 | Loss 0.438583
+Epoch 50 | Batch 20/100 | Loss 0.436100
+Epoch 50 | Batch 30/100 | Loss 0.458370
+Epoch 50 | Batch 40/100 | Loss 0.462733
+Epoch 50 | Batch 50/100 | Loss 0.482546
+Epoch 50 | Batch 60/100 | Loss 0.487367
+Epoch 50 | Batch 70/100 | Loss 0.479340
+Epoch 50 | Batch 80/100 | Loss 0.468472
+Epoch 50 | Batch 90/100 | Loss 0.472661
+Epoch 50 | Batch 100/100 | Loss 0.465180
+--- 100 Loss = 0.714033 ---
+--- 100 Test Acc = 72.72% +- 1.53% ---
+GG! best accuracy 73.787500
+Epoch 51 | Batch 10/100 | Loss 0.515417
+Epoch 51 | Batch 20/100 | Loss 0.487922
+Epoch 51 | Batch 30/100 | Loss 0.509099
+Epoch 51 | Batch 40/100 | Loss 0.484915
+Epoch 51 | Batch 50/100 | Loss 0.466606
+Epoch 51 | Batch 60/100 | Loss 0.477764
+Epoch 51 | Batch 70/100 | Loss 0.471928
+Epoch 51 | Batch 80/100 | Loss 0.474683
+Epoch 51 | Batch 90/100 | Loss 0.482076
+Epoch 51 | Batch 100/100 | Loss 0.493605
+--- 100 Loss = 0.723604 ---
+--- 100 Test Acc = 72.05% +- 1.58% ---
+GG! best accuracy 73.787500
+Epoch 52 | Batch 10/100 | Loss 0.437070
+Epoch 52 | Batch 20/100 | Loss 0.492626
+Epoch 52 | Batch 30/100 | Loss 0.485918
+Epoch 52 | Batch 40/100 | Loss 0.487540
+Epoch 52 | Batch 50/100 | Loss 0.496499
+Epoch 52 | Batch 60/100 | Loss 0.521512
+Epoch 52 | Batch 70/100 | Loss 0.510061
+Epoch 52 | Batch 80/100 | Loss 0.499114
+Epoch 52 | Batch 90/100 | Loss 0.503340
+Epoch 52 | Batch 100/100 | Loss 0.502541
+--- 100 Loss = 0.701370 ---
+--- 100 Test Acc = 73.12% +- 1.59% ---
+GG! best accuracy 73.787500
+Epoch 53 | Batch 10/100 | Loss 0.387440
+Epoch 53 | Batch 20/100 | Loss 0.423556
+Epoch 53 | Batch 30/100 | Loss 0.418304
+Epoch 53 | Batch 40/100 | Loss 0.456839
+Epoch 53 | Batch 50/100 | Loss 0.465746
+Epoch 53 | Batch 60/100 | Loss 0.470754
+Epoch 53 | Batch 70/100 | Loss 0.481327
+Epoch 53 | Batch 80/100 | Loss 0.478049
+Epoch 53 | Batch 90/100 | Loss 0.474055
+Epoch 53 | Batch 100/100 | Loss 0.476836
+--- 100 Loss = 0.684024 ---
+--- 100 Test Acc = 73.85% +- 1.61% ---
+best model! save...
+Epoch 54 | Batch 10/100 | Loss 0.484710
+Epoch 54 | Batch 20/100 | Loss 0.475508
+Epoch 54 | Batch 30/100 | Loss 0.465585
+Epoch 54 | Batch 40/100 | Loss 0.443911
+Epoch 54 | Batch 50/100 | Loss 0.451191
+Epoch 54 | Batch 60/100 | Loss 0.453893
+Epoch 54 | Batch 70/100 | Loss 0.465290
+Epoch 54 | Batch 80/100 | Loss 0.474957
+Epoch 54 | Batch 90/100 | Loss 0.478722
+Epoch 54 | Batch 100/100 | Loss 0.481872
+--- 100 Loss = 0.724479 ---
+--- 100 Test Acc = 72.49% +- 1.87% ---
+GG! best accuracy 73.850000
+Epoch 55 | Batch 10/100 | Loss 0.442168
+Epoch 55 | Batch 20/100 | Loss 0.470314
+Epoch 55 | Batch 30/100 | Loss 0.480922
+Epoch 55 | Batch 40/100 | Loss 0.475982
+Epoch 55 | Batch 50/100 | Loss 0.464989
+Epoch 55 | Batch 60/100 | Loss 0.453719
+Epoch 55 | Batch 70/100 | Loss 0.449173
+Epoch 55 | Batch 80/100 | Loss 0.453881
+Epoch 55 | Batch 90/100 | Loss 0.454761
+Epoch 55 | Batch 100/100 | Loss 0.460823
+--- 100 Loss = 0.685270 ---
+--- 100 Test Acc = 73.60% +- 1.65% ---
+GG! best accuracy 73.850000
+Epoch 56 | Batch 10/100 | Loss 0.462822
+Epoch 56 | Batch 20/100 | Loss 0.480992
+Epoch 56 | Batch 30/100 | Loss 0.516969
+Epoch 56 | Batch 40/100 | Loss 0.513944
+Epoch 56 | Batch 50/100 | Loss 0.513745
+Epoch 56 | Batch 60/100 | Loss 0.512598
+Epoch 56 | Batch 70/100 | Loss 0.514278
+Epoch 56 | Batch 80/100 | Loss 0.525558
+Epoch 56 | Batch 90/100 | Loss 0.515544
+Epoch 56 | Batch 100/100 | Loss 0.516275
+--- 100 Loss = 0.684178 ---
+--- 100 Test Acc = 74.15% +- 1.60% ---
+best model! save...
+Epoch 57 | Batch 10/100 | Loss 0.448608
+Epoch 57 | Batch 20/100 | Loss 0.486534
+Epoch 57 | Batch 30/100 | Loss 0.497778
+Epoch 57 | Batch 40/100 | Loss 0.510715
+Epoch 57 | Batch 50/100 | Loss 0.490295
+Epoch 57 | Batch 60/100 | Loss 0.479779
+Epoch 57 | Batch 70/100 | Loss 0.488930
+Epoch 57 | Batch 80/100 | Loss 0.494701
+Epoch 57 | Batch 90/100 | Loss 0.491676
+Epoch 57 | Batch 100/100 | Loss 0.481305
+--- 100 Loss = 0.693862 ---
+--- 100 Test Acc = 73.09% +- 1.68% ---
+GG! best accuracy 74.150000
+Epoch 58 | Batch 10/100 | Loss 0.481277
+Epoch 58 | Batch 20/100 | Loss 0.439730
+Epoch 58 | Batch 30/100 | Loss 0.459364
+Epoch 58 | Batch 40/100 | Loss 0.463509
+Epoch 58 | Batch 50/100 | Loss 0.476704
+Epoch 58 | Batch 60/100 | Loss 0.472500
+Epoch 58 | Batch 70/100 | Loss 0.471604
+Epoch 58 | Batch 80/100 | Loss 0.482721
+Epoch 58 | Batch 90/100 | Loss 0.479184
+Epoch 58 | Batch 100/100 | Loss 0.478783
+--- 100 Loss = 0.711259 ---
+--- 100 Test Acc = 73.47% +- 1.68% ---
+GG! best accuracy 74.150000
+Epoch 59 | Batch 10/100 | Loss 0.466971
+Epoch 59 | Batch 20/100 | Loss 0.475117
+Epoch 59 | Batch 30/100 | Loss 0.451272
+Epoch 59 | Batch 40/100 | Loss 0.466481
+Epoch 59 | Batch 50/100 | Loss 0.460657
+Epoch 59 | Batch 60/100 | Loss 0.459568
+Epoch 59 | Batch 70/100 | Loss 0.456105
+Epoch 59 | Batch 80/100 | Loss 0.446193
+Epoch 59 | Batch 90/100 | Loss 0.449985
+Epoch 59 | Batch 100/100 | Loss 0.447563
+--- 100 Loss = 0.637160 ---
+--- 100 Test Acc = 75.79% +- 1.52% ---
+best model! save...
+Epoch 60 | Batch 10/100 | Loss 0.438334
+Epoch 60 | Batch 20/100 | Loss 0.429052
+Epoch 60 | Batch 30/100 | Loss 0.453707
+Epoch 60 | Batch 40/100 | Loss 0.473255
+Epoch 60 | Batch 50/100 | Loss 0.485622
+Epoch 60 | Batch 60/100 | Loss 0.481254
+Epoch 60 | Batch 70/100 | Loss 0.482691
+Epoch 60 | Batch 80/100 | Loss 0.484147
+Epoch 60 | Batch 90/100 | Loss 0.488389
+Epoch 60 | Batch 100/100 | Loss 0.483169
+--- 100 Loss = 0.684679 ---
+--- 100 Test Acc = 73.12% +- 1.84% ---
+GG! best accuracy 75.787500
+Epoch 61 | Batch 10/100 | Loss 0.492298
+Epoch 61 | Batch 20/100 | Loss 0.469389
+Epoch 61 | Batch 30/100 | Loss 0.478294
+Epoch 61 | Batch 40/100 | Loss 0.475602
+Epoch 61 | Batch 50/100 | Loss 0.474136
+Epoch 61 | Batch 60/100 | Loss 0.475566
+Epoch 61 | Batch 70/100 | Loss 0.471472
+Epoch 61 | Batch 80/100 | Loss 0.469130
+Epoch 61 | Batch 90/100 | Loss 0.476809
+Epoch 61 | Batch 100/100 | Loss 0.478324
+--- 100 Loss = 0.681349 ---
+--- 100 Test Acc = 74.22% +- 1.81% ---
+GG! best accuracy 75.787500
+Epoch 62 | Batch 10/100 | Loss 0.511992
+Epoch 62 | Batch 20/100 | Loss 0.543871
+Epoch 62 | Batch 30/100 | Loss 0.536434
+Epoch 62 | Batch 40/100 | Loss 0.516112
+Epoch 62 | Batch 50/100 | Loss 0.511286
+Epoch 62 | Batch 60/100 | Loss 0.503027
+Epoch 62 | Batch 70/100 | Loss 0.494933
+Epoch 62 | Batch 80/100 | Loss 0.485664
+Epoch 62 | Batch 90/100 | Loss 0.476725
+Epoch 62 | Batch 100/100 | Loss 0.466326
+--- 100 Loss = 0.678821 ---
+--- 100 Test Acc = 73.61% +- 1.61% ---
+GG! best accuracy 75.787500
+Epoch 63 | Batch 10/100 | Loss 0.620601
+Epoch 63 | Batch 20/100 | Loss 0.548922
+Epoch 63 | Batch 30/100 | Loss 0.537355
+Epoch 63 | Batch 40/100 | Loss 0.527980
+Epoch 63 | Batch 50/100 | Loss 0.533158
+Epoch 63 | Batch 60/100 | Loss 0.507443
+Epoch 63 | Batch 70/100 | Loss 0.494616
+Epoch 63 | Batch 80/100 | Loss 0.496073
+Epoch 63 | Batch 90/100 | Loss 0.489257
+Epoch 63 | Batch 100/100 | Loss 0.491796
+--- 100 Loss = 0.680557 ---
+--- 100 Test Acc = 73.89% +- 1.71% ---
+GG! best accuracy 75.787500
+Epoch 64 | Batch 10/100 | Loss 0.563448
+Epoch 64 | Batch 20/100 | Loss 0.559977
+Epoch 64 | Batch 30/100 | Loss 0.562627
+Epoch 64 | Batch 40/100 | Loss 0.518439
+Epoch 64 | Batch 50/100 | Loss 0.516539
+Epoch 64 | Batch 60/100 | Loss 0.512814
+Epoch 64 | Batch 70/100 | Loss 0.505700
+Epoch 64 | Batch 80/100 | Loss 0.492058
+Epoch 64 | Batch 90/100 | Loss 0.494280
+Epoch 64 | Batch 100/100 | Loss 0.494073
+--- 100 Loss = 0.709184 ---
+--- 100 Test Acc = 72.56% +- 1.72% ---
+GG! best accuracy 75.787500
+Epoch 65 | Batch 10/100 | Loss 0.425138
+Epoch 65 | Batch 20/100 | Loss 0.432953
+Epoch 65 | Batch 30/100 | Loss 0.460459
+Epoch 65 | Batch 40/100 | Loss 0.472172
+Epoch 65 | Batch 50/100 | Loss 0.463838
+Epoch 65 | Batch 60/100 | Loss 0.452650
+Epoch 65 | Batch 70/100 | Loss 0.453517
+Epoch 65 | Batch 80/100 | Loss 0.454652
+Epoch 65 | Batch 90/100 | Loss 0.452145
+Epoch 65 | Batch 100/100 | Loss 0.454674
+--- 100 Loss = 0.682440 ---
+--- 100 Test Acc = 74.14% +- 1.60% ---
+GG! best accuracy 75.787500
+Epoch 66 | Batch 10/100 | Loss 0.474867
+Epoch 66 | Batch 20/100 | Loss 0.462942
+Epoch 66 | Batch 30/100 | Loss 0.505109
+Epoch 66 | Batch 40/100 | Loss 0.487429
+Epoch 66 | Batch 50/100 | Loss 0.482603
+Epoch 66 | Batch 60/100 | Loss 0.479344
+Epoch 66 | Batch 70/100 | Loss 0.482003
+Epoch 66 | Batch 80/100 | Loss 0.497048
+Epoch 66 | Batch 90/100 | Loss 0.484799
+Epoch 66 | Batch 100/100 | Loss 0.483058
+--- 100 Loss = 0.724084 ---
+--- 100 Test Acc = 71.99% +- 1.56% ---
+GG! best accuracy 75.787500
+Epoch 67 | Batch 10/100 | Loss 0.430799
+Epoch 67 | Batch 20/100 | Loss 0.415232
+Epoch 67 | Batch 30/100 | Loss 0.440708
+Epoch 67 | Batch 40/100 | Loss 0.441499
+Epoch 67 | Batch 50/100 | Loss 0.453411
+Epoch 67 | Batch 60/100 | Loss 0.452689
+Epoch 67 | Batch 70/100 | Loss 0.458050
+Epoch 67 | Batch 80/100 | Loss 0.463065
+Epoch 67 | Batch 90/100 | Loss 0.451036
+Epoch 67 | Batch 100/100 | Loss 0.453495
+--- 100 Loss = 0.691391 ---
+--- 100 Test Acc = 73.65% +- 1.53% ---
+GG! best accuracy 75.787500
+Epoch 68 | Batch 10/100 | Loss 0.433649
+Epoch 68 | Batch 20/100 | Loss 0.451625
+Epoch 68 | Batch 30/100 | Loss 0.472398
+Epoch 68 | Batch 40/100 | Loss 0.491813
+Epoch 68 | Batch 50/100 | Loss 0.477268
+Epoch 68 | Batch 60/100 | Loss 0.476052
+Epoch 68 | Batch 70/100 | Loss 0.469966
+Epoch 68 | Batch 80/100 | Loss 0.469176
+Epoch 68 | Batch 90/100 | Loss 0.475921
+Epoch 68 | Batch 100/100 | Loss 0.463737
+--- 100 Loss = 0.689866 ---
+--- 100 Test Acc = 74.24% +- 1.60% ---
+GG! best accuracy 75.787500
+Epoch 69 | Batch 10/100 | Loss 0.478441
+Epoch 69 | Batch 20/100 | Loss 0.523157
+Epoch 69 | Batch 30/100 | Loss 0.498900
+Epoch 69 | Batch 40/100 | Loss 0.502994
+Epoch 69 | Batch 50/100 | Loss 0.489393
+Epoch 69 | Batch 60/100 | Loss 0.485566
+Epoch 69 | Batch 70/100 | Loss 0.479791
+Epoch 69 | Batch 80/100 | Loss 0.471661
+Epoch 69 | Batch 90/100 | Loss 0.472372
+Epoch 69 | Batch 100/100 | Loss 0.464082
+--- 100 Loss = 0.684619 ---
+--- 100 Test Acc = 73.30% +- 1.51% ---
+GG! best accuracy 75.787500
+Epoch 70 | Batch 10/100 | Loss 0.377544
+Epoch 70 | Batch 20/100 | Loss 0.357419
+Epoch 70 | Batch 30/100 | Loss 0.386979
+Epoch 70 | Batch 40/100 | Loss 0.404078
+Epoch 70 | Batch 50/100 | Loss 0.419987
+Epoch 70 | Batch 60/100 | Loss 0.428713
+Epoch 70 | Batch 70/100 | Loss 0.435534
+Epoch 70 | Batch 80/100 | Loss 0.434238
+Epoch 70 | Batch 90/100 | Loss 0.430493
+Epoch 70 | Batch 100/100 | Loss 0.431435
+--- 100 Loss = 0.643534 ---
+--- 100 Test Acc = 75.90% +- 1.43% ---
+best model! save...
+Epoch 71 | Batch 10/100 | Loss 0.561744
+Epoch 71 | Batch 20/100 | Loss 0.527502
+Epoch 71 | Batch 30/100 | Loss 0.525746
+Epoch 71 | Batch 40/100 | Loss 0.491822
+Epoch 71 | Batch 50/100 | Loss 0.493817
+Epoch 71 | Batch 60/100 | Loss 0.485188
+Epoch 71 | Batch 70/100 | Loss 0.485684
+Epoch 71 | Batch 80/100 | Loss 0.486802
+Epoch 71 | Batch 90/100 | Loss 0.485688
+Epoch 71 | Batch 100/100 | Loss 0.483756
+--- 100 Loss = 0.714503 ---
+--- 100 Test Acc = 72.96% +- 1.63% ---
+GG! best accuracy 75.900000
+Epoch 72 | Batch 10/100 | Loss 0.458003
+Epoch 72 | Batch 20/100 | Loss 0.447407
+Epoch 72 | Batch 30/100 | Loss 0.442884
+Epoch 72 | Batch 40/100 | Loss 0.419411
+Epoch 72 | Batch 50/100 | Loss 0.432997
+Epoch 72 | Batch 60/100 | Loss 0.461633
+Epoch 72 | Batch 70/100 | Loss 0.462990
+Epoch 72 | Batch 80/100 | Loss 0.469401
+Epoch 72 | Batch 90/100 | Loss 0.470523
+Epoch 72 | Batch 100/100 | Loss 0.462591
+--- 100 Loss = 0.710997 ---
+--- 100 Test Acc = 72.58% +- 1.72% ---
+GG! best accuracy 75.900000
+Epoch 73 | Batch 10/100 | Loss 0.513672
+Epoch 73 | Batch 20/100 | Loss 0.489165
+Epoch 73 | Batch 30/100 | Loss 0.461041
+Epoch 73 | Batch 40/100 | Loss 0.442821
+Epoch 73 | Batch 50/100 | Loss 0.460610
+Epoch 73 | Batch 60/100 | Loss 0.460862
+Epoch 73 | Batch 70/100 | Loss 0.449201
+Epoch 73 | Batch 80/100 | Loss 0.449384
+Epoch 73 | Batch 90/100 | Loss 0.453267
+Epoch 73 | Batch 100/100 | Loss 0.453460
+--- 100 Loss = 0.673478 ---
+--- 100 Test Acc = 74.40% +- 1.48% ---
+GG! best accuracy 75.900000
+Epoch 74 | Batch 10/100 | Loss 0.423917
+Epoch 74 | Batch 20/100 | Loss 0.486791
+Epoch 74 | Batch 30/100 | Loss 0.479958
+Epoch 74 | Batch 40/100 | Loss 0.444776
+Epoch 74 | Batch 50/100 | Loss 0.448137
+Epoch 74 | Batch 60/100 | Loss 0.451129
+Epoch 74 | Batch 70/100 | Loss 0.458577
+Epoch 74 | Batch 80/100 | Loss 0.470395
+Epoch 74 | Batch 90/100 | Loss 0.473456
+Epoch 74 | Batch 100/100 | Loss 0.466274
+--- 100 Loss = 0.754250 ---
+--- 100 Test Acc = 71.72% +- 1.93% ---
+GG! best accuracy 75.900000
+Epoch 75 | Batch 10/100 | Loss 0.406274
+Epoch 75 | Batch 20/100 | Loss 0.404245
+Epoch 75 | Batch 30/100 | Loss 0.422970
+Epoch 75 | Batch 40/100 | Loss 0.438086
+Epoch 75 | Batch 50/100 | Loss 0.439219
+Epoch 75 | Batch 60/100 | Loss 0.445140
+Epoch 75 | Batch 70/100 | Loss 0.448239
+Epoch 75 | Batch 80/100 | Loss 0.449788
+Epoch 75 | Batch 90/100 | Loss 0.442933
+Epoch 75 | Batch 100/100 | Loss 0.445991
+--- 100 Loss = 0.691184 ---
+--- 100 Test Acc = 73.30% +- 1.62% ---
+GG! best accuracy 75.900000
+Epoch 76 | Batch 10/100 | Loss 0.453937
+Epoch 76 | Batch 20/100 | Loss 0.448341
+Epoch 76 | Batch 30/100 | Loss 0.457556
+Epoch 76 | Batch 40/100 | Loss 0.446017
+Epoch 76 | Batch 50/100 | Loss 0.430845
+Epoch 76 | Batch 60/100 | Loss 0.428392
+Epoch 76 | Batch 70/100 | Loss 0.431075
+Epoch 76 | Batch 80/100 | Loss 0.427743
+Epoch 76 | Batch 90/100 | Loss 0.436350
+Epoch 76 | Batch 100/100 | Loss 0.425069
+--- 100 Loss = 0.672269 ---
+--- 100 Test Acc = 74.24% +- 1.60% ---
+GG! best accuracy 75.900000
+Epoch 77 | Batch 10/100 | Loss 0.462952
+Epoch 77 | Batch 20/100 | Loss 0.430687
+Epoch 77 | Batch 30/100 | Loss 0.423492
+Epoch 77 | Batch 40/100 | Loss 0.424931
+Epoch 77 | Batch 50/100 | Loss 0.429156
+Epoch 77 | Batch 60/100 | Loss 0.417387
+Epoch 77 | Batch 70/100 | Loss 0.423627
+Epoch 77 | Batch 80/100 | Loss 0.423766
+Epoch 77 | Batch 90/100 | Loss 0.431497
+Epoch 77 | Batch 100/100 | Loss 0.432222
+--- 100 Loss = 0.648653 ---
+--- 100 Test Acc = 74.95% +- 1.70% ---
+GG! best accuracy 75.900000
+Epoch 78 | Batch 10/100 | Loss 0.438571
+Epoch 78 | Batch 20/100 | Loss 0.493042
+Epoch 78 | Batch 30/100 | Loss 0.474478
+Epoch 78 | Batch 40/100 | Loss 0.459677
+Epoch 78 | Batch 50/100 | Loss 0.469210
+Epoch 78 | Batch 60/100 | Loss 0.449380
+Epoch 78 | Batch 70/100 | Loss 0.446986
+Epoch 78 | Batch 80/100 | Loss 0.445553
+Epoch 78 | Batch 90/100 | Loss 0.451598
+Epoch 78 | Batch 100/100 | Loss 0.446578
+--- 100 Loss = 0.698202 ---
+--- 100 Test Acc = 73.08% +- 1.46% ---
+GG! best accuracy 75.900000
+Epoch 79 | Batch 10/100 | Loss 0.493216
+Epoch 79 | Batch 20/100 | Loss 0.501809
+Epoch 79 | Batch 30/100 | Loss 0.465833
+Epoch 79 | Batch 40/100 | Loss 0.451176
+Epoch 79 | Batch 50/100 | Loss 0.431620
+Epoch 79 | Batch 60/100 | Loss 0.440607
+Epoch 79 | Batch 70/100 | Loss 0.454078
+Epoch 79 | Batch 80/100 | Loss 0.452570
+Epoch 79 | Batch 90/100 | Loss 0.447432
+Epoch 79 | Batch 100/100 | Loss 0.446627
+--- 100 Loss = 0.690377 ---
+--- 100 Test Acc = 73.33% +- 1.63% ---
+GG! best accuracy 75.900000
+Epoch 80 | Batch 10/100 | Loss 0.399158
+Epoch 80 | Batch 20/100 | Loss 0.434160
+Epoch 80 | Batch 30/100 | Loss 0.437742
+Epoch 80 | Batch 40/100 | Loss 0.429330
+Epoch 80 | Batch 50/100 | Loss 0.444323
+Epoch 80 | Batch 60/100 | Loss 0.429896
+Epoch 80 | Batch 70/100 | Loss 0.432037
+Epoch 80 | Batch 80/100 | Loss 0.431292
+Epoch 80 | Batch 90/100 | Loss 0.428813
+Epoch 80 | Batch 100/100 | Loss 0.429478
+--- 100 Loss = 0.695769 ---
+--- 100 Test Acc = 73.49% +- 1.52% ---
+GG! best accuracy 75.900000
+Epoch 81 | Batch 10/100 | Loss 0.444730
+Epoch 81 | Batch 20/100 | Loss 0.435804
+Epoch 81 | Batch 30/100 | Loss 0.447742
+Epoch 81 | Batch 40/100 | Loss 0.440346
+Epoch 81 | Batch 50/100 | Loss 0.439823
+Epoch 81 | Batch 60/100 | Loss 0.437050
+Epoch 81 | Batch 70/100 | Loss 0.425710
+Epoch 81 | Batch 80/100 | Loss 0.424308
+Epoch 81 | Batch 90/100 | Loss 0.435949
+Epoch 81 | Batch 100/100 | Loss 0.436011
+--- 100 Loss = 0.673124 ---
+--- 100 Test Acc = 74.04% +- 1.67% ---
+GG! best accuracy 75.900000
+Epoch 82 | Batch 10/100 | Loss 0.451686
+Epoch 82 | Batch 20/100 | Loss 0.497690
+Epoch 82 | Batch 30/100 | Loss 0.456071
+Epoch 82 | Batch 40/100 | Loss 0.457484
+Epoch 82 | Batch 50/100 | Loss 0.446834
+Epoch 82 | Batch 60/100 | Loss 0.454139
+Epoch 82 | Batch 70/100 | Loss 0.450521
+Epoch 82 | Batch 80/100 | Loss 0.450287
+Epoch 82 | Batch 90/100 | Loss 0.454853
+Epoch 82 | Batch 100/100 | Loss 0.451901
+--- 100 Loss = 0.648784 ---
+--- 100 Test Acc = 75.84% +- 1.54% ---
+GG! best accuracy 75.900000
+Epoch 83 | Batch 10/100 | Loss 0.440214
+Epoch 83 | Batch 20/100 | Loss 0.398426
+Epoch 83 | Batch 30/100 | Loss 0.410112
+Epoch 83 | Batch 40/100 | Loss 0.402831
+Epoch 83 | Batch 50/100 | Loss 0.394421
+Epoch 83 | Batch 60/100 | Loss 0.411720
+Epoch 83 | Batch 70/100 | Loss 0.419398
+Epoch 83 | Batch 80/100 | Loss 0.422322
+Epoch 83 | Batch 90/100 | Loss 0.422956
+Epoch 83 | Batch 100/100 | Loss 0.428753
+--- 100 Loss = 0.728620 ---
+--- 100 Test Acc = 72.09% +- 1.64% ---
+GG! best accuracy 75.900000
+Epoch 84 | Batch 10/100 | Loss 0.395552
+Epoch 84 | Batch 20/100 | Loss 0.409249
+Epoch 84 | Batch 30/100 | Loss 0.434774
+Epoch 84 | Batch 40/100 | Loss 0.430379
+Epoch 84 | Batch 50/100 | Loss 0.423360
+Epoch 84 | Batch 60/100 | Loss 0.433298
+Epoch 84 | Batch 70/100 | Loss 0.427181
+Epoch 84 | Batch 80/100 | Loss 0.427168
+Epoch 84 | Batch 90/100 | Loss 0.428602
+Epoch 84 | Batch 100/100 | Loss 0.429207
+--- 100 Loss = 0.672230 ---
+--- 100 Test Acc = 73.46% +- 1.66% ---
+GG! best accuracy 75.900000
+Epoch 85 | Batch 10/100 | Loss 0.477525
+Epoch 85 | Batch 20/100 | Loss 0.464597
+Epoch 85 | Batch 30/100 | Loss 0.469076
+Epoch 85 | Batch 40/100 | Loss 0.465011
+Epoch 85 | Batch 50/100 | Loss 0.445933
+Epoch 85 | Batch 60/100 | Loss 0.457180
+Epoch 85 | Batch 70/100 | Loss 0.444251
+Epoch 85 | Batch 80/100 | Loss 0.441609
+Epoch 85 | Batch 90/100 | Loss 0.438805
+Epoch 85 | Batch 100/100 | Loss 0.437751
+--- 100 Loss = 0.621083 ---
+--- 100 Test Acc = 76.28% +- 1.41% ---
+best model! save...
+Epoch 86 | Batch 10/100 | Loss 0.455338
+Epoch 86 | Batch 20/100 | Loss 0.437308
+Epoch 86 | Batch 30/100 | Loss 0.455183
+Epoch 86 | Batch 40/100 | Loss 0.462945
+Epoch 86 | Batch 50/100 | Loss 0.460713
+Epoch 86 | Batch 60/100 | Loss 0.459676
+Epoch 86 | Batch 70/100 | Loss 0.450386
+Epoch 86 | Batch 80/100 | Loss 0.444782
+Epoch 86 | Batch 90/100 | Loss 0.451015
+Epoch 86 | Batch 100/100 | Loss 0.444015
+--- 100 Loss = 0.672233 ---
+--- 100 Test Acc = 74.47% +- 1.76% ---
+GG! best accuracy 76.275000
+Epoch 87 | Batch 10/100 | Loss 0.436689
+Epoch 87 | Batch 20/100 | Loss 0.428228
+Epoch 87 | Batch 30/100 | Loss 0.426895
+Epoch 87 | Batch 40/100 | Loss 0.443318
+Epoch 87 | Batch 50/100 | Loss 0.449010
+Epoch 87 | Batch 60/100 | Loss 0.445810
+Epoch 87 | Batch 70/100 | Loss 0.442051
+Epoch 87 | Batch 80/100 | Loss 0.441899
+Epoch 87 | Batch 90/100 | Loss 0.436814
+Epoch 87 | Batch 100/100 | Loss 0.444233
+--- 100 Loss = 0.662533 ---
+--- 100 Test Acc = 74.67% +- 1.63% ---
+GG! best accuracy 76.275000
+Epoch 88 | Batch 10/100 | Loss 0.382929
+Epoch 88 | Batch 20/100 | Loss 0.470785
+Epoch 88 | Batch 30/100 | Loss 0.455055
+Epoch 88 | Batch 40/100 | Loss 0.447022
+Epoch 88 | Batch 50/100 | Loss 0.445574
+Epoch 88 | Batch 60/100 | Loss 0.438145
+Epoch 88 | Batch 70/100 | Loss 0.427180
+Epoch 88 | Batch 80/100 | Loss 0.427001
+Epoch 88 | Batch 90/100 | Loss 0.422012
+Epoch 88 | Batch 100/100 | Loss 0.426318
+--- 100 Loss = 0.680142 ---
+--- 100 Test Acc = 73.94% +- 1.64% ---
+GG! best accuracy 76.275000
+Epoch 89 | Batch 10/100 | Loss 0.508299
+Epoch 89 | Batch 20/100 | Loss 0.471323
+Epoch 89 | Batch 30/100 | Loss 0.432538
+Epoch 89 | Batch 40/100 | Loss 0.447958
+Epoch 89 | Batch 50/100 | Loss 0.439728
+Epoch 89 | Batch 60/100 | Loss 0.448651
+Epoch 89 | Batch 70/100 | Loss 0.450863
+Epoch 89 | Batch 80/100 | Loss 0.462990
+Epoch 89 | Batch 90/100 | Loss 0.459903
+Epoch 89 | Batch 100/100 | Loss 0.455343
+--- 100 Loss = 0.644228 ---
+--- 100 Test Acc = 75.04% +- 1.62% ---
+GG! best accuracy 76.275000
+Epoch 90 | Batch 10/100 | Loss 0.440587
+Epoch 90 | Batch 20/100 | Loss 0.414135
+Epoch 90 | Batch 30/100 | Loss 0.417035
+Epoch 90 | Batch 40/100 | Loss 0.423422
+Epoch 90 | Batch 50/100 | Loss 0.434610
+Epoch 90 | Batch 60/100 | Loss 0.416867
+Epoch 90 | Batch 70/100 | Loss 0.418575
+Epoch 90 | Batch 80/100 | Loss 0.411539
+Epoch 90 | Batch 90/100 | Loss 0.409590
+Epoch 90 | Batch 100/100 | Loss 0.413358
+--- 100 Loss = 0.634361 ---
+--- 100 Test Acc = 76.14% +- 1.67% ---
+GG! best accuracy 76.275000
+Epoch 91 | Batch 10/100 | Loss 0.468330
+Epoch 91 | Batch 20/100 | Loss 0.426298
+Epoch 91 | Batch 30/100 | Loss 0.423629
+Epoch 91 | Batch 40/100 | Loss 0.438553
+Epoch 91 | Batch 50/100 | Loss 0.436642
+Epoch 91 | Batch 60/100 | Loss 0.431963
+Epoch 91 | Batch 70/100 | Loss 0.426231
+Epoch 91 | Batch 80/100 | Loss 0.420784
+Epoch 91 | Batch 90/100 | Loss 0.423539
+Epoch 91 | Batch 100/100 | Loss 0.426112
+--- 100 Loss = 0.662987 ---
+--- 100 Test Acc = 74.33% +- 1.52% ---
+GG! best accuracy 76.275000
+Epoch 92 | Batch 10/100 | Loss 0.417249
+Epoch 92 | Batch 20/100 | Loss 0.402985
+Epoch 92 | Batch 30/100 | Loss 0.441001
+Epoch 92 | Batch 40/100 | Loss 0.443426
+Epoch 92 | Batch 50/100 | Loss 0.426865
+Epoch 92 | Batch 60/100 | Loss 0.431728
+Epoch 92 | Batch 70/100 | Loss 0.432526
+Epoch 92 | Batch 80/100 | Loss 0.425484
+Epoch 92 | Batch 90/100 | Loss 0.422606
+Epoch 92 | Batch 100/100 | Loss 0.425056
+--- 100 Loss = 0.664415 ---
+--- 100 Test Acc = 74.31% +- 1.68% ---
+GG! best accuracy 76.275000
+Epoch 93 | Batch 10/100 | Loss 0.379314
+Epoch 93 | Batch 20/100 | Loss 0.402434
+Epoch 93 | Batch 30/100 | Loss 0.420167
+Epoch 93 | Batch 40/100 | Loss 0.429191
+Epoch 93 | Batch 50/100 | Loss 0.424040
+Epoch 93 | Batch 60/100 | Loss 0.410058
+Epoch 93 | Batch 70/100 | Loss 0.415843
+Epoch 93 | Batch 80/100 | Loss 0.408632
+Epoch 93 | Batch 90/100 | Loss 0.405212
+Epoch 93 | Batch 100/100 | Loss 0.407343
+--- 100 Loss = 0.691614 ---
+--- 100 Test Acc = 73.40% +- 1.53% ---
+GG! best accuracy 76.275000
+Epoch 94 | Batch 10/100 | Loss 0.311884
+Epoch 94 | Batch 20/100 | Loss 0.317778
+Epoch 94 | Batch 30/100 | Loss 0.321433
+Epoch 94 | Batch 40/100 | Loss 0.355497
+Epoch 94 | Batch 50/100 | Loss 0.357728
+Epoch 94 | Batch 60/100 | Loss 0.362856
+Epoch 94 | Batch 70/100 | Loss 0.373703
+Epoch 94 | Batch 80/100 | Loss 0.377126
+Epoch 94 | Batch 90/100 | Loss 0.375747
+Epoch 94 | Batch 100/100 | Loss 0.375907
+--- 100 Loss = 0.671993 ---
+--- 100 Test Acc = 74.05% +- 1.71% ---
+GG! best accuracy 76.275000
+Epoch 95 | Batch 10/100 | Loss 0.372306
+Epoch 95 | Batch 20/100 | Loss 0.396636
+Epoch 95 | Batch 30/100 | Loss 0.400380
+Epoch 95 | Batch 40/100 | Loss 0.387584
+Epoch 95 | Batch 50/100 | Loss 0.399025
+Epoch 95 | Batch 60/100 | Loss 0.409194
+Epoch 95 | Batch 70/100 | Loss 0.402311
+Epoch 95 | Batch 80/100 | Loss 0.401339
+Epoch 95 | Batch 90/100 | Loss 0.412261
+Epoch 95 | Batch 100/100 | Loss 0.415943
+--- 100 Loss = 0.729158 ---
+--- 100 Test Acc = 71.78% +- 1.65% ---
+GG! best accuracy 76.275000
+Epoch 96 | Batch 10/100 | Loss 0.299462
+Epoch 96 | Batch 20/100 | Loss 0.375936
+Epoch 96 | Batch 30/100 | Loss 0.401161
+Epoch 96 | Batch 40/100 | Loss 0.391389
+Epoch 96 | Batch 50/100 | Loss 0.396151
+Epoch 96 | Batch 60/100 | Loss 0.400177
+Epoch 96 | Batch 70/100 | Loss 0.407749
+Epoch 96 | Batch 80/100 | Loss 0.416720
+Epoch 96 | Batch 90/100 | Loss 0.426061
+Epoch 96 | Batch 100/100 | Loss 0.424801
+--- 100 Loss = 0.698223 ---
+--- 100 Test Acc = 73.03% +- 1.63% ---
+GG! best accuracy 76.275000
+Epoch 97 | Batch 10/100 | Loss 0.384525
+Epoch 97 | Batch 20/100 | Loss 0.427846
+Epoch 97 | Batch 30/100 | Loss 0.420133
+Epoch 97 | Batch 40/100 | Loss 0.424551
+Epoch 97 | Batch 50/100 | Loss 0.433799
+Epoch 97 | Batch 60/100 | Loss 0.428649
+Epoch 97 | Batch 70/100 | Loss 0.431618
+Epoch 97 | Batch 80/100 | Loss 0.422203
+Epoch 97 | Batch 90/100 | Loss 0.428243
+Epoch 97 | Batch 100/100 | Loss 0.426632
+--- 100 Loss = 0.708234 ---
+--- 100 Test Acc = 72.71% +- 1.47% ---
+GG! best accuracy 76.275000
+Epoch 98 | Batch 10/100 | Loss 0.452037
+Epoch 98 | Batch 20/100 | Loss 0.403024
+Epoch 98 | Batch 30/100 | Loss 0.394256
+Epoch 98 | Batch 40/100 | Loss 0.393557
+Epoch 98 | Batch 50/100 | Loss 0.419508
+Epoch 98 | Batch 60/100 | Loss 0.421483
+Epoch 98 | Batch 70/100 | Loss 0.412708
+Epoch 98 | Batch 80/100 | Loss 0.411572
+Epoch 98 | Batch 90/100 | Loss 0.405136
+Epoch 98 | Batch 100/100 | Loss 0.404029
+--- 100 Loss = 0.698605 ---
+--- 100 Test Acc = 73.65% +- 1.57% ---
+GG! best accuracy 76.275000
+Epoch 99 | Batch 10/100 | Loss 0.426092
+Epoch 99 | Batch 20/100 | Loss 0.419946
+Epoch 99 | Batch 30/100 | Loss 0.434731
+Epoch 99 | Batch 40/100 | Loss 0.407681
+Epoch 99 | Batch 50/100 | Loss 0.405400
+Epoch 99 | Batch 60/100 | Loss 0.427196
+Epoch 99 | Batch 70/100 | Loss 0.418520
+Epoch 99 | Batch 80/100 | Loss 0.416056
+Epoch 99 | Batch 90/100 | Loss 0.418996
+Epoch 99 | Batch 100/100 | Loss 0.426016
+--- 100 Loss = 0.682293 ---
+--- 100 Test Acc = 73.50% +- 1.91% ---
+GG! best accuracy 76.275000
+Epoch 100 | Batch 10/100 | Loss 0.452431
+Epoch 100 | Batch 20/100 | Loss 0.415072
+Epoch 100 | Batch 30/100 | Loss 0.396692
+Epoch 100 | Batch 40/100 | Loss 0.402876
+Epoch 100 | Batch 50/100 | Loss 0.407801
+Epoch 100 | Batch 60/100 | Loss 0.406853
+Epoch 100 | Batch 70/100 | Loss 0.416066
+Epoch 100 | Batch 80/100 | Loss 0.420235
+Epoch 100 | Batch 90/100 | Loss 0.428339
+Epoch 100 | Batch 100/100 | Loss 0.427262
+--- 100 Loss = 0.647661 ---
+--- 100 Test Acc = 75.05% +- 1.72% ---
+GG! best accuracy 76.275000
+Epoch 101 | Batch 10/100 | Loss 0.446821
+Epoch 101 | Batch 20/100 | Loss 0.423961
+Epoch 101 | Batch 30/100 | Loss 0.419559
+Epoch 101 | Batch 40/100 | Loss 0.403281
+Epoch 101 | Batch 50/100 | Loss 0.392331
+Epoch 101 | Batch 60/100 | Loss 0.397766
+Epoch 101 | Batch 70/100 | Loss 0.396289
+Epoch 101 | Batch 80/100 | Loss 0.406336
+Epoch 101 | Batch 90/100 | Loss 0.405992
+Epoch 101 | Batch 100/100 | Loss 0.403022
+--- 100 Loss = 0.683084 ---
+--- 100 Test Acc = 74.14% +- 1.50% ---
+GG! best accuracy 76.275000
+Epoch 102 | Batch 10/100 | Loss 0.455635
+Epoch 102 | Batch 20/100 | Loss 0.431327
+Epoch 102 | Batch 30/100 | Loss 0.425590
+Epoch 102 | Batch 40/100 | Loss 0.448774
+Epoch 102 | Batch 50/100 | Loss 0.436569
+Epoch 102 | Batch 60/100 | Loss 0.428594
+Epoch 102 | Batch 70/100 | Loss 0.442948
+Epoch 102 | Batch 80/100 | Loss 0.444255
+Epoch 102 | Batch 90/100 | Loss 0.445975
+Epoch 102 | Batch 100/100 | Loss 0.439793
+--- 100 Loss = 0.673423 ---
+--- 100 Test Acc = 74.42% +- 1.48% ---
+GG! best accuracy 76.275000
+Epoch 103 | Batch 10/100 | Loss 0.502420
+Epoch 103 | Batch 20/100 | Loss 0.481288
+Epoch 103 | Batch 30/100 | Loss 0.441214
+Epoch 103 | Batch 40/100 | Loss 0.416604
+Epoch 103 | Batch 50/100 | Loss 0.413997
+Epoch 103 | Batch 60/100 | Loss 0.413550
+Epoch 103 | Batch 70/100 | Loss 0.421341
+Epoch 103 | Batch 80/100 | Loss 0.423662
+Epoch 103 | Batch 90/100 | Loss 0.426598
+Epoch 103 | Batch 100/100 | Loss 0.430415
+--- 100 Loss = 0.660387 ---
+--- 100 Test Acc = 74.38% +- 1.62% ---
+GG! best accuracy 76.275000
+Epoch 104 | Batch 10/100 | Loss 0.406725
+Epoch 104 | Batch 20/100 | Loss 0.400454
+Epoch 104 | Batch 30/100 | Loss 0.404209
+Epoch 104 | Batch 40/100 | Loss 0.420711
+Epoch 104 | Batch 50/100 | Loss 0.412196
+Epoch 104 | Batch 60/100 | Loss 0.393645
+Epoch 104 | Batch 70/100 | Loss 0.396925
+Epoch 104 | Batch 80/100 | Loss 0.410036
+Epoch 104 | Batch 90/100 | Loss 0.412816
+Epoch 104 | Batch 100/100 | Loss 0.413545
+--- 100 Loss = 0.684981 ---
+--- 100 Test Acc = 73.62% +- 1.64% ---
+GG! best accuracy 76.275000
+Epoch 105 | Batch 10/100 | Loss 0.311736
+Epoch 105 | Batch 20/100 | Loss 0.386536
+Epoch 105 | Batch 30/100 | Loss 0.388912
+Epoch 105 | Batch 40/100 | Loss 0.392035
+Epoch 105 | Batch 50/100 | Loss 0.384882
+Epoch 105 | Batch 60/100 | Loss 0.395636
+Epoch 105 | Batch 70/100 | Loss 0.397918
+Epoch 105 | Batch 80/100 | Loss 0.395324
+Epoch 105 | Batch 90/100 | Loss 0.385106
+Epoch 105 | Batch 100/100 | Loss 0.382563
+--- 100 Loss = 0.658436 ---
+--- 100 Test Acc = 74.60% +- 1.51% ---
+GG! best accuracy 76.275000
+Epoch 106 | Batch 10/100 | Loss 0.447081
+Epoch 106 | Batch 20/100 | Loss 0.439193
+Epoch 106 | Batch 30/100 | Loss 0.429024
+Epoch 106 | Batch 40/100 | Loss 0.402862
+Epoch 106 | Batch 50/100 | Loss 0.409328
+Epoch 106 | Batch 60/100 | Loss 0.400426
+Epoch 106 | Batch 70/100 | Loss 0.402100
+Epoch 106 | Batch 80/100 | Loss 0.415059
+Epoch 106 | Batch 90/100 | Loss 0.414967
+Epoch 106 | Batch 100/100 | Loss 0.411662
+--- 100 Loss = 0.664403 ---
+--- 100 Test Acc = 74.31% +- 1.52% ---
+GG! best accuracy 76.275000
+Epoch 107 | Batch 10/100 | Loss 0.385234
+Epoch 107 | Batch 20/100 | Loss 0.393694
+Epoch 107 | Batch 30/100 | Loss 0.394944
+Epoch 107 | Batch 40/100 | Loss 0.383280
+Epoch 107 | Batch 50/100 | Loss 0.377250
+Epoch 107 | Batch 60/100 | Loss 0.359792
+Epoch 107 | Batch 70/100 | Loss 0.368220
+Epoch 107 | Batch 80/100 | Loss 0.369203
+Epoch 107 | Batch 90/100 | Loss 0.371323
+Epoch 107 | Batch 100/100 | Loss 0.375589
+--- 100 Loss = 0.615181 ---
+--- 100 Test Acc = 77.12% +- 1.47% ---
+best model! save...
+Epoch 108 | Batch 10/100 | Loss 0.397980
+Epoch 108 | Batch 20/100 | Loss 0.407345
+Epoch 108 | Batch 30/100 | Loss 0.439362
+Epoch 108 | Batch 40/100 | Loss 0.422474
+Epoch 108 | Batch 50/100 | Loss 0.415277
+Epoch 108 | Batch 60/100 | Loss 0.399639
+Epoch 108 | Batch 70/100 | Loss 0.403042
+Epoch 108 | Batch 80/100 | Loss 0.409288
+Epoch 108 | Batch 90/100 | Loss 0.411034
+Epoch 108 | Batch 100/100 | Loss 0.410101
+--- 100 Loss = 0.672940 ---
+--- 100 Test Acc = 74.74% +- 1.60% ---
+GG! best accuracy 77.125000
+Epoch 109 | Batch 10/100 | Loss 0.387864
+Epoch 109 | Batch 20/100 | Loss 0.389407
+Epoch 109 | Batch 30/100 | Loss 0.400971
+Epoch 109 | Batch 40/100 | Loss 0.381204
+Epoch 109 | Batch 50/100 | Loss 0.376953
+Epoch 109 | Batch 60/100 | Loss 0.386044
+Epoch 109 | Batch 70/100 | Loss 0.393411
+Epoch 109 | Batch 80/100 | Loss 0.402860
+Epoch 109 | Batch 90/100 | Loss 0.401212
+Epoch 109 | Batch 100/100 | Loss 0.400377
+--- 100 Loss = 0.630042 ---
+--- 100 Test Acc = 76.29% +- 1.57% ---
+GG! best accuracy 77.125000
+Epoch 110 | Batch 10/100 | Loss 0.442471
+Epoch 110 | Batch 20/100 | Loss 0.420628
+Epoch 110 | Batch 30/100 | Loss 0.408395
+Epoch 110 | Batch 40/100 | Loss 0.397665
+Epoch 110 | Batch 50/100 | Loss 0.389696
+Epoch 110 | Batch 60/100 | Loss 0.389055
+Epoch 110 | Batch 70/100 | Loss 0.380129
+Epoch 110 | Batch 80/100 | Loss 0.383231
+Epoch 110 | Batch 90/100 | Loss 0.390629
+Epoch 110 | Batch 100/100 | Loss 0.382340
+--- 100 Loss = 0.665200 ---
+--- 100 Test Acc = 74.28% +- 1.50% ---
+GG! best accuracy 77.125000
+Epoch 111 | Batch 10/100 | Loss 0.295143
+Epoch 111 | Batch 20/100 | Loss 0.350712
+Epoch 111 | Batch 30/100 | Loss 0.389353
+Epoch 111 | Batch 40/100 | Loss 0.373115
+Epoch 111 | Batch 50/100 | Loss 0.375886
+Epoch 111 | Batch 60/100 | Loss 0.384031
+Epoch 111 | Batch 70/100 | Loss 0.383116
+Epoch 111 | Batch 80/100 | Loss 0.378323
+Epoch 111 | Batch 90/100 | Loss 0.382078
+Epoch 111 | Batch 100/100 | Loss 0.380154
+--- 100 Loss = 0.662988 ---
+--- 100 Test Acc = 74.99% +- 1.62% ---
+GG! best accuracy 77.125000
+Epoch 112 | Batch 10/100 | Loss 0.371873
+Epoch 112 | Batch 20/100 | Loss 0.380902
+Epoch 112 | Batch 30/100 | Loss 0.367990
+Epoch 112 | Batch 40/100 | Loss 0.388777
+Epoch 112 | Batch 50/100 | Loss 0.396026
+Epoch 112 | Batch 60/100 | Loss 0.389937
+Epoch 112 | Batch 70/100 | Loss 0.382480
+Epoch 112 | Batch 80/100 | Loss 0.384896
+Epoch 112 | Batch 90/100 | Loss 0.383533
+Epoch 112 | Batch 100/100 | Loss 0.387039
+--- 100 Loss = 0.681223 ---
+--- 100 Test Acc = 73.58% +- 1.55% ---
+GG! best accuracy 77.125000
+Epoch 113 | Batch 10/100 | Loss 0.362083
+Epoch 113 | Batch 20/100 | Loss 0.361941
+Epoch 113 | Batch 30/100 | Loss 0.353767
+Epoch 113 | Batch 40/100 | Loss 0.353166
+Epoch 113 | Batch 50/100 | Loss 0.356470
+Epoch 113 | Batch 60/100 | Loss 0.350312
+Epoch 113 | Batch 70/100 | Loss 0.347210
+Epoch 113 | Batch 80/100 | Loss 0.346747
+Epoch 113 | Batch 90/100 | Loss 0.347193
+Epoch 113 | Batch 100/100 | Loss 0.345380
+--- 100 Loss = 0.655822 ---
+--- 100 Test Acc = 74.92% +- 1.52% ---
+GG! best accuracy 77.125000
+Epoch 114 | Batch 10/100 | Loss 0.447278
+Epoch 114 | Batch 20/100 | Loss 0.447239
+Epoch 114 | Batch 30/100 | Loss 0.418233
+Epoch 114 | Batch 40/100 | Loss 0.417525
+Epoch 114 | Batch 50/100 | Loss 0.402560
+Epoch 114 | Batch 60/100 | Loss 0.397916
+Epoch 114 | Batch 70/100 | Loss 0.403798
+Epoch 114 | Batch 80/100 | Loss 0.399957
+Epoch 114 | Batch 90/100 | Loss 0.401897
+Epoch 114 | Batch 100/100 | Loss 0.404653
+--- 100 Loss = 0.687035 ---
+--- 100 Test Acc = 73.70% +- 1.62% ---
+GG! best accuracy 77.125000
+Epoch 115 | Batch 10/100 | Loss 0.394236
+Epoch 115 | Batch 20/100 | Loss 0.388769
+Epoch 115 | Batch 30/100 | Loss 0.405971
+Epoch 115 | Batch 40/100 | Loss 0.413576
+Epoch 115 | Batch 50/100 | Loss 0.398822
+Epoch 115 | Batch 60/100 | Loss 0.404685
+Epoch 115 | Batch 70/100 | Loss 0.395609
+Epoch 115 | Batch 80/100 | Loss 0.387113
+Epoch 115 | Batch 90/100 | Loss 0.386116
+Epoch 115 | Batch 100/100 | Loss 0.388695
+--- 100 Loss = 0.659633 ---
+--- 100 Test Acc = 74.56% +- 1.60% ---
+GG! best accuracy 77.125000
+Epoch 116 | Batch 10/100 | Loss 0.410463
+Epoch 116 | Batch 20/100 | Loss 0.428896
+Epoch 116 | Batch 30/100 | Loss 0.430209
+Epoch 116 | Batch 40/100 | Loss 0.402259
+Epoch 116 | Batch 50/100 | Loss 0.391927
+Epoch 116 | Batch 60/100 | Loss 0.396483
+Epoch 116 | Batch 70/100 | Loss 0.399834
+Epoch 116 | Batch 80/100 | Loss 0.391020
+Epoch 116 | Batch 90/100 | Loss 0.389192
+Epoch 116 | Batch 100/100 | Loss 0.393423
+--- 100 Loss = 0.687328 ---
+--- 100 Test Acc = 73.51% +- 1.69% ---
+GG! best accuracy 77.125000
+Epoch 117 | Batch 10/100 | Loss 0.417733
+Epoch 117 | Batch 20/100 | Loss 0.425194
+Epoch 117 | Batch 30/100 | Loss 0.403785
+Epoch 117 | Batch 40/100 | Loss 0.398200
+Epoch 117 | Batch 50/100 | Loss 0.407629
+Epoch 117 | Batch 60/100 | Loss 0.396829
+Epoch 117 | Batch 70/100 | Loss 0.396793
+Epoch 117 | Batch 80/100 | Loss 0.396471
+Epoch 117 | Batch 90/100 | Loss 0.393503
+Epoch 117 | Batch 100/100 | Loss 0.399192
+--- 100 Loss = 0.671205 ---
+--- 100 Test Acc = 74.39% +- 1.72% ---
+GG! best accuracy 77.125000
